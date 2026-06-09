@@ -1,0 +1,105 @@
+        body{
+            background: #dedde2;
+        }
+
+        .top-header{
+            background: linear-gradient(135deg, #56c0f5, #258cf4);
+			color:#ffffff;
+            padding:50px 0;
+            margin-bottom:40px;
+            box-shadow:0 10px 30px rgba(0,0,0,.15);
+        }
+		
+		.accordion-body{
+			background:#dddfe2; /* Cor do acordeao ABERTO */
+		}
+
+        .accordion-item{
+            border:none;
+            margin-bottom:15px;
+            border-radius:15px !important;
+            overflow:hidden;
+            box-shadow:0 5px 15px rgba(0,0,0,.08);
+        }
+
+        .accordion-button{
+            padding:20px;
+            font-size:1.1rem;
+            font-weight:600;
+            background:#dddfe2; /* Cor da tabela parado */
+        }
+
+        .accordion-button:not(.collapsed){
+            background:#337394; /* Cor da tabela clicado */
+            color:white;
+        }
+
+        .accordion-button:focus{
+            box-shadow:none;
+        }
+
+        .file-item{
+            background:#dddfe2; /* Cor da linha aberto */
+            border-radius:12px;
+            padding:15px;
+            margin-bottom:10px;
+            transition:.3s;
+        }
+		
+        .file-item:hover{
+            transform:translateY(-2px);
+            background:#d7d6dc; /* Cor da linha com mouse em cima */
+        }
+
+        .file-icon{
+            width:50px;
+            height:50px;
+            border-radius:12px;
+            background:#dddfe2; /* Quadrado do icone*/
+            color:#56c0f5; /* Cor do icone*/
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:24px;
+        }
+
+        .download-btn{
+            border-radius:10px;
+            padding:10px 20px;
+            font-weight:600;
+			
+			background-color: #4090ba; /* verde */
+			color: white;              /* cor do texto */
+			border: 1px solid #337394;
+        }
+		
+		.download-btn:hover {
+			background-color: #26556e; /* azul mais escuro */
+			border-color: #193848;
+			color: white;
+		}
+		
+		.download-btn:active {
+			background-color: #26556e !important;
+			border-color: #193848 !important;
+			color: white !important;
+		}
+		
+		.ativador-btn {
+			color: #18181b;              /* cor do texto */
+			border-color: #3d3b45;       /* cor da borda */
+			background-color: transparent;
+			font-size: 11px;
+		}
+		
+		.ativador-btn:hover {
+			color: #ffffff;
+			background-color: #3d3b45;
+			border-color: #3d3b45;
+		}
+		
+		.ativador-btn:active {
+			color: #ffffff !important;
+			background-color: #3d3b45 !important;
+			border-color: #3d3b45 !important;
+		}
